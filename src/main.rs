@@ -45,7 +45,7 @@ fn index() -> String {
                 <li><a href="https://www.spreaker.com/show/modem-prometheus"><i class="fa fa-podcast">" Listen"</i></a></li>
                 <li><a href="https://twitter.com/modemprometheus"><i class="fab fa-twitter">" Twitter"</i></a></li>
                 //<li><a href="#"><i class="fa fa-user-astronaut">" Credits"</i></a></li>
-                <li><a href="https://www.patreon.com/modemprometheus"><i class="fab fa-patreon">" Support us on Patreon"</i></a></li>
+                //<li><a href="https://www.patreon.com/modemprometheus"><i class="fab fa-patreon">" Support us on Patreon"</i></a></li>
             </ul>
             </nav>
 
