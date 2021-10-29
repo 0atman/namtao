@@ -8,14 +8,14 @@ fn index() -> String {
 <html lang="en">
 
 <head>
-    <link rel="icon" href="https://via.placeholder.com/70x70"/>
+    <link rel="icon" href="favicon.png"/>
     <link rel="stylesheet" href="https://unpkg.com/mvp.css"/>
 
     <meta charset="utf-8"/>
-    <meta name="description" content="My description"/>
+    <meta name="description" content="Modem Prometheus is a forthcoming podcast of modern folktales. These are the stories of the kerbside, the transmitter mast, the shadows between buildings."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://kit.fontawesome.com/333f3de551.js" crossorigin="anonymous"></script>
-            <title>"Modem Prometheus"</title>
+            <title>"Modem Prometheus Podcast"</title>
             <style>"
                 body, html {height: 100%;}
                 body {
