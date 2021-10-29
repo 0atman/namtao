@@ -67,8 +67,8 @@ fn index() -> String {
 
 
 fn main() -> Result<(), Report> {
-    std::fs::create_dir_all("dist")?;
-    std::fs::write("dist/index.html", index())?;
+    std::fs::create_dir_all("docs")?;
+    std::fs::write("docs/index.html", index())?;
 
     println!("Built site OK!");
     Ok(())
