@@ -54,7 +54,7 @@ fn index() -> String {
             <figure>
                 <img alt="Logo" src="logo.png"/>
             </figure>
-            <h1>"Modem Prometheus is a forthcoming podcast of modern folktales."</h1>
+            <h1>"Modem Prometheus is a podcast of modern folktales."</h1>
             <p>"These are the stories of the kerbside, the transmitter mast, the shadows between buildings."</p>
             <br/>
             <p>
