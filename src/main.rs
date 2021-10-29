@@ -19,7 +19,12 @@ fn index() -> String {
     <style>"
         body, html {height: 100%;}
         body {
+        font-family: Garamond, serif;
+        background: black;
+        color: white;
+
         background-image: url(\"bg.jpg\");
+
 
         /* Full height */
         height: 100%;
@@ -29,9 +34,8 @@ fn index() -> String {
         background-repeat: no-repeat;
         background-size: cover;
         }
-        :root {
-            --color-link: #29bec6;
-            --font-family: -apple-system, sans-serif;
+        a {
+        color: 29bec6;
         }
 
     "</style>
