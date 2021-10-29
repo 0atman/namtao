@@ -17,23 +17,22 @@ fn index() -> String {
     <script src="https://kit.fontawesome.com/333f3de551.js" crossorigin="anonymous"></script>
     <title>"Modem Prometheus Podcast"</title>
     <style>"
-        body, html {height: 100%;}
+        html {height: 100%; min-height: 100%; overflow: auto; }
         body {
-        background: black;
-        color: white;
+            background: black;
+            color: white;
+            min-height: 100%;
+            height: 100vh;
+            padding: 0;
+            background-image: url(\"bg.jpg\");
 
-        background-image: url(\"bg.jpg\");
-
-        /* Full height */
-        height: 100%;
-
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         a {
-        color: 29bec6;
+            color: 29bec6;
         }
         :root { --color-link: #29bec6; --color-bg: #fff;}
     "</style>
