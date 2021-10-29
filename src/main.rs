@@ -14,13 +14,14 @@ fn index() -> String {
     <meta charset="utf-8"/>
     <meta name="description" content="My description"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+    <script src="https://kit.fontawesome.com/333f3de551.js" crossorigin="anonymous"></script>
             <title>"Modem Prometheus"</title>
             <style>"
                 body, html {height: 100%;}
                 body {
                 font-family: Garamond, serif;
                 background: black;
+                color: white;
 
                 background-image: url(\"bg.jpg\");
 
@@ -40,29 +41,13 @@ fn index() -> String {
     <header>
         <nav>
             <ul>
-                <li><a href="#">"Listen"</a></li>
-                <li><a href="#">"Twitter"</a></li>
-                <li><a href="#">"Credits"</a></li>
-                <li><a href="#">"Support us on Patreon"</a></li>
+                <li><a href="https://www.spreaker.com/show/modem-prometheus"><i class="fa fa-podcast">" Listen"</i></a></li>
+                <li><a href="https://twitter.com/modemprometheus"><i class="fab fa-twitter">" Twitter"</i></a></li>
+                //<li><a href="#"><i class="fa fa-user-astronaut">" Credits"</i></a></li>
+                <li><a href="https://www.patreon.com/modemprometheus"><i class="fab fa-patreon">" Support us on Patreon"</i></a></li>
             </ul>
             </nav>
 
-        {content()}
-
-    </header>
-    <main>
-            </main>
-            <footer>"
-            foot
-            "</footer>
-            </body>
-        </html>
-    }
-}
-
-
-fn content() -> String {
-    html! {
         <section>
             <figure>
                 <img alt="Logo" src="logo.png"/>
@@ -71,13 +56,13 @@ fn content() -> String {
             <p>"These are the stories of the kerbside, the transmitter mast, the shadows between buildings."</p>
             <br/>
             <p>
-            <a href="#">
-                <i>"Watch promo here"</i>
-            </a>
-            <a href="#"><b>"Start Here &rarr;"</b></a></p>
+            <a href="https://www.youtube.com/watch?v=rci101Zkgds"><b>"Start Here &rarr;"</b></a></p>
 
         </section>
-}
+        </header>
+            </body>
+        </html>
+    }
 }
 
 
