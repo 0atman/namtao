@@ -12,56 +12,68 @@ fn index() -> String {
     <link rel="stylesheet" href="https://unpkg.com/mvp.css"/>
 
     <meta charset="utf-8"/>
-    <meta name="description" content="Modem Prometheus is a forthcoming podcast of modern folktales. These are the stories of the kerbside, the transmitter mast, the shadows between buildings."/>
+    <meta name="description" content="Namtao music."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://kit.fontawesome.com/333f3de551.js" crossorigin="anonymous"></script>
-    <title>"Modem Prometheus Podcast"</title>
+    <title>"Namtao Music"</title>
     <style>"
         html {height: 100%; min-height: 100%; overflow: auto; }
         body {
             background: black;
             color: white;
-            min-height: 100%;
-            height: 100vh;
             padding: 0;
-            background-image: url(\"bg.jpg\");
-
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
         }
         a {
             color: 29bec6;
         }
-        :root { --color-link: #29bec6; --color-bg: #fff;}
+        :root { --color-link: #ffffff; --color-bg: #fff;}
     "</style>
     </head>
 
-    <body>
+        <body>
         <header>
         <nav>
             <ul>
-                <li><a href="https://www.spreaker.com/show/modem-prometheus"><i class="fa fa-podcast">" Listen"</i></a></li>
-                <li><a href="https://twitter.com/modemprometheus"><i class="fab fa-twitter">" Twitter"</i></a></li>
-                //<li><a href="#"><i class="fa fa-user-astronaut">" Credits"</i></a></li>
-                //<li><a href="https://www.patreon.com/modemprometheus"><i class="fab fa-patreon">" Support us on Patreon"</i></a></li>
+                <li><a href="https://www.soundcloud.com/namtao"><i class="fab fa-soundcloud">" Soundcloud"</i></a></li>
+                <li><a href="https://twitter.com/namtaomusic"><i class="fab fa-twitter">" Twitter"</i></a></li>
+                <li><a href="https://open.spotify.com/artist/3BdJgEUj08JtFRywQxl0BM?si=JAQ9teVrRBmPizeEvi62TQ"><i class="fab fa-spotify">" Spotify"</i></a></li>
+                <li><a href="mailto:contact@namtao.com"><i class="fa fa-envelope">" Contact"</i></a></li>
             </ul>
             </nav>
 
-        <section>
-            <figure>
-                <img alt="Logo" src="logo.png"/>
-            </figure>
-            <h1>"Modem Prometheus is a podcast of modern folktales."</h1>
-            <p>"These are the stories of the kerbside, the transmitter mast, the shadows between buildings."</p>
-            <br/>
-            <p>
-            <a href="https://www.youtube.com/watch?v=rci101Zkgds"><b>"Start Here &rarr;"</b></a></p>
+            </header>
+            <main>
 
+
+            <section>
+            <header>
+                <h2>"NAMTAO is Tris Oaten"</h2>
+                <p>"Podcast and music producer"</p>
+            </header>
+            <aside>
+                    <a href="https://www.lostterminal.com">
+            <img alt="Lost Terminal podcast album art" src="lt-logo.png"/>
+            <p>"Lost Terminal Podcast"</p>
+                    </a>
+            </aside>
+            <aside>
+                    <a href="https://distrokid.com/hyperfollow/namtao/c0ast">
+                <img alt="C0ast album art." src="c0ast.jpg"/>
+            <p>"C0AST Album"</p>
+                    </a>
+            </aside>
+            <aside>
+                    <a href="https://www.modemprometheus.com">
+                <img alt="MIT license" src="mp-logo.png"/>
+            <p>"Modem Prometheus Podcast"</p>
+                    </a>
+                <p>
+                </p>
+            </aside>
         </section>
-        </header>
+            </main>
             </body>
+
         </html>
     }
 }

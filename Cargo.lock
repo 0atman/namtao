@@ -149,7 +149,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "modemprometheus-com"
+name = "namtao-com"
 version = "0.1.0"
 dependencies = [
  "color-eyre",
