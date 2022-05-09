@@ -1,3 +1,8 @@
+# Mean Time To Failure
+# NAMTAO
+#
+# Recorded version: https://soundcloud.com/namtao/mttf
+
 notes = (ring :C4, :C4, :C4, :Bb3)
 notes_lower = (ring :C3, :C3, :C3, :Bb2)
 
