@@ -8,6 +8,7 @@ fn index() -> String {
 <html lang="en">
 
 <head>
+    <meta http-equiv="x-clacks-overhead" content="GNU Terry Pratchett" />
     <link rel="icon" href="favicon.png"/>
     <link rel="stylesheet" href="https://unpkg.com/mvp.css"/>
 
